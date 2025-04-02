@@ -16,7 +16,6 @@ const reset = document.getElementById("reset")
 // }, 1000);
 let [hours,minutes,seconds] = [0,0,0]
 let timer = null
-stopWatch()
 function stopWatch(params) {
     seconds++;
     if (seconds == 60){
